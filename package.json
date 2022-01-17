@@ -1,0 +1,38 @@
+{
+  "name": "react-native-collapsible-card",
+  "version": "1.0.0",
+  "description": "Simple and lightweight collapsible card for react native with cool animation",
+  "main": "./lib/CollapsibleCard.tsx",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamSchinzel/react-native-collapsible-card.git"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "collapsible-card",
+    "lightweight"
+  ],
+  "author": "Adam Schinzel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamSchinzel/react-native-collapsible-card/issues"
+  },
+  "homepage": "https://github.com/AdamSchinzel/react-native-collapsible-card#readme",
+  "peerDependencies": {
+    "react": ">= 16.x.x",
+    "@types/react": "~16.9.35",
+    "react-native": ">= 0.55.x",
+    "@types/react-native": "~0.63.2",
+    "@react-spring/native": ">= 9.x.x",
+    "bezier-easing": ">= 2.x.x",
+    "react-native-svg": ">= 12.x.x"
+  }
+}
