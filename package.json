@@ -1,18 +1,12 @@
 {
-  "name": "react-native-collapsible-card",
+  "name": "@adamschinzel/react-native-collapsible-card",
   "version": "1.0.0",
   "description": "Simple and lightweight collapsible card for react native with cool animation",
   "main": "./lib/CollapsibleCard.tsx",
-  "directories": {
-    "example": "example",
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "url": "https://github.com/AdamSchinzel/react-native-collapsible-card.git"
-  },
+  "repository": "https://github.com/AdamSchinzel/react-native-collapsible-card.git",
   "keywords": [
     "react-native",
     "expo",
@@ -21,10 +15,14 @@
   ],
   "author": "Adam Schinzel",
   "license": "MIT",
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/AdamSchinzel/react-native-collapsible-card/issues"
   },
   "homepage": "https://github.com/AdamSchinzel/react-native-collapsible-card#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "react": ">= 16.x.x",
     "@types/react": "~16.9.35",
